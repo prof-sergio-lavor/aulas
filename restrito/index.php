@@ -1,4 +1,6 @@
-
+<?php
+include"../validar.php";
+?>
 <!doctype html>
 <html lang="en">
 
@@ -15,6 +17,10 @@
       <div class="linha">
       
         <div class="jumbotron">
+        
+            
+          
+            
           <h1 class="display-4">Sistema de Cadastro de Pessoas</h1>
           <p class="lead">Sistema desenvolvido por alunos do curso tecnico em informática e desenvolvimento de sistemas da EEEP Paulo Barbosa Leite</p>
           <hr class="my-4">
@@ -22,7 +28,12 @@
           <p class="lead">
             <a class="btn btn-primary btn-lg" href="cadastro.php" role="button">Cadastre-se</a>
             <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">Pesquisar Cadastro</a>
+            <a class="btn btn-danger btn-lg" href="../logout.php" role="button">sair da conta</a>
+            
            
+                
+                
+
            
         </div>
       </div>
